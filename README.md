@@ -6,10 +6,10 @@ A fully functional clone of the **Myntra** shopping application, built for learn
 Click here to view live.
 
 ## 🚀 Features
-🧾 **Product listing** according to Categories.
-🛒 **Add to cart** your Favourite Product.
-👤 **User authentication** (Login/Signup)
-🔄 **Responsive design** for mobile and desktop
+-🧾 **Product listing** according to Categories.
+-🛒 **Add to cart** your Favourite Product.
+-👤 **User authentication** (Login/Signup)
+-🔄 **Responsive design** for mobile and desktop
 
 ---
 
