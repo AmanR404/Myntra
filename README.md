@@ -7,7 +7,7 @@ Click here to view live.
 
 ## 🚀 Features
 -🧾 **Product listing** according to Categories.
--🛒 **Add to cart** your Favourite Product.
+-🛒 **Add to cart / wishlist** your Favourite Product.
 -👤 **User authentication** (Login/Signup)
 -🔄 **Responsive design** for mobile and desktop
 
@@ -20,6 +20,9 @@ Click here to view live.
 | React         | Frontend SPA framework            |
 | Tailwind CSS  | Styling and responsive design     |
 | Node.js       | Runtime environment               |
+| Express.js    | Server Functionality              |
 | Redux         | Appliction's State Management     |
+| Redux Thunk   | Middleware for API Calls          |
+| MongoDB       | Database Management               |
 | OAuth 2.0     | User Authentication               |
 ---
