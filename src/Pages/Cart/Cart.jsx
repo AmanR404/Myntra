@@ -6,9 +6,11 @@ import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import { useEffect, useState } from 'react'
 import { storeProducts } from '../../Setup/Redux/State/action'
+import { useNavigate } from 'react-router'
 
 const Cart = () => {
     const dispatch = useDispatch()
+    const navigate = useNavigate()
 
     // Data from Redux Store
     const cartProducts = useSelector((state => state.productToCart))
@@ -22,17 +24,8 @@ const Cart = () => {
     }
 
     // Place Order Function
-    const placeOrder = () => {
-        toast.success(`Payment Partner doesn't exist !`, {
-            position: "bottom-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: "dark"
-        })
+const placeOrder = () => {
+       navigate('/order-details')
     }
 
     // Fetching Cart Products
